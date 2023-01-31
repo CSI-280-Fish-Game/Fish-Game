@@ -1,3 +1,7 @@
 # Fish-Game's ReadMe
+=======
+# A work in progress!
 
-Ryan Jackson 1
+=======
+Ryan Jackson
+Katie James
