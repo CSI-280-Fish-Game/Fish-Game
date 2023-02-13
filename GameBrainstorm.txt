@@ -1,0 +1,7 @@
+Features that can be added to the game in the future.
+
+1. Using Coins to Buy new Equipment
+2. Levels that Coincide with a potential story
+3. Additional Power-ups that players can catch
+	- Mystery Box / Chest
+	- Lifetime Statistics? / Statistic Tracker
