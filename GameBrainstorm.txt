@@ -1,7 +1,16 @@
 Features that can be added to the game in the future.
-
-1. Using Coins to Buy new Equipment
-2. Levels that Coincide with a potential story
-3. Additional Power-ups that players can catch
-	- Mystery Box / Chest
-	- Lifetime Statistics? / Statistic Tracker
+----------------------------------------------------------------------
+-> Achievements?
+-> Different/New/Better Equipment (Fishing Rods, Clothes, Baits, etc.)
+-> Additional Entities:
+	- Mystery Boxes?
+	- Chests / Coins?
+	- New Fish?
+		* Different Fish Values? (Yellow = 1 Fish, Grey = 2 Fish, etc.)?
+	- New Entities?
+-> Levels that Coincide with a Potential Story
+-> Versus, Play Against AI 
+-> Lifetime Statistic Counter/Tracker
+-> Fish Swimming Both Ways / Changing Directions?
+-> Timing Enemy Entities to Make Catching Fish Harder
+-> More Challenging to Catch the Big Red Fish (Click Certain Areas in the Water(ripples) at Certain Times)
