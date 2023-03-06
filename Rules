@@ -1,0 +1,36 @@
+Feel free to edit and add!
+** == I would like some input on this rule/guideline
+
+Player:
+Has three lives (or bait)
+Can't lose the fishing pole
+**Catch one or multiple fish at a time
+
+Bait:
+Is reuseable
+Can be lost to enemies
+
+Fish:
+Get caught with bait
+Can be removed by enemies from hook
+**maybe some fish you have to catch with smaller fish?
+
+Enemies:
+Can remove one bait or fish from hook
+**Distract player/Kill player?
+
+How to play the game:
+The player starts with three bait and must catch a total of ## fish. 
+While the player is fishing, there will be enemies that slowly appear to 
+slow down the player,
+remove bait or fish from the player
+**if the player runs out of bait, do they become the bait?
+
+If the player does not catch enough fish and runs out of bait, they have failed the level
+Results:
+**TBD
+
+If the play catches enough fish, they have succeed in completing the level
+Results:
+End of the level, ** move on to the next
+**Catch a rare fish?

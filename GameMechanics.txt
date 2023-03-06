@@ -1,0 +1,17 @@
+Game Mechanincs To Be Added
+----------------------------------------------------------------------
+Movement:
+-> Fishing Line: Vertical
+-> Vertical Entity Bobbing
+-> Movement Speed (too fast and the game feels cheap, too slow and it becomes boring)
+
+Collisions:
+-> Collisions w/ Other Entities
+-> if a Fish is on the Line: Collision will Knock the Fish Off (Unless the Entity is Another Fish or the Big Red Fish)
+
+Catching Fish:
+-> Clicking to Release a Fish (if Over the Ice: Fish Caught ; if Under the Ice: Fish Swims Away)
+
+Other:
+-> Difficulty Multiplier: Game Should get Faster as the Fish Count gets Higher to Increase Difficulty
+-> Warning of New Entities (Good or Bad) Pink Puffle w/ Green Snorkle
