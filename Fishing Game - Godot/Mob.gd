@@ -1,20 +1,12 @@
 extends RigidBody2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
+# Called when mob node enters scene for first time.
 func _ready():
-	$AnimatedSprite2D.play()
-	var mob_types = $AnimatedSprite2D.get_sprite_frames().get_animation_names()
-	$AnimatedSprite2D.animation = mob_types[randi() % mob_types.size()]  # randomly picks animation type
+	$AnimatedSprite.play()
+	var mob_types = $AnimatedSprite.get_sprite_frames().get_animation_names()
+	$AnimatedSprite.animation = mob_types[randi() % mob_types.size()]  # randomly picks animation type
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-func _on_visible_on_screen_notifier_2d_screen_exited():
+# Destroys mob instance when it leaves screen view.
+func _on_VisibilityNotifier2D_screen_exited() -> void:
 	queue_free()
