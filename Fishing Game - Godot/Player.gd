@@ -23,3 +23,9 @@ func _draw():
 	
 	# black
 	draw_line(from, to, Color(0, 0, 0), 5)
+
+func _on_Player_body_entered(body):
+	var mobscene = preload("res://Mob.tscn")
+	var instance = mobscene.instance()
+	instance._caught()  # call function from Mob.gd script
+	body.queue_free()  # catch fish instance
