@@ -14,16 +14,6 @@ func _process(delta):
 	position.x = FISHING_LINE_X # locks on vertical axis of screen
 	update()
 
-func _draw():
-	var from = Vector2(0, 0)
-	var to = Vector2(0, -(FISHING_LINE_Y))
-	
-	from = from.normalized() * 100
-	to = to.normalized() * 100
-	
-	# black
-	draw_line(from, to, Color(0, 0, 0), 5)
-
 func _on_Player_body_entered(body):
 	var mobscene = preload("res://Mob.tscn")
 	var instance = mobscene.instance()
