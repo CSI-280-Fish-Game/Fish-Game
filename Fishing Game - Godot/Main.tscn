@@ -7,7 +7,7 @@
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, 2992, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, 1712, 498.579, 0, 0, 0, 0, 1168, 183.687, 0, 0, 0, 0, 688, 708.506 )
+"points": PoolVector2Array( 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, -272, 306.145, 0, 0, 0, 0, 2992, 306.145, 0, 0, 0, 0, -272, 306.145 )
 }
 
 [node name="Main" type="Node"]
@@ -35,6 +35,38 @@ scale = Vector2( 0.25, 0.4573 )
 curve = SubResource( 1 )
 
 [node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
+position = Vector2( -272, 306.145 )
+
+[node name="MobPath2" type="Path2D" parent="."]
+position = Vector2( 0, 51 )
+scale = Vector2( 0.25, 0.4573 )
+curve = SubResource( 1 )
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath2"]
+position = Vector2( -272, 306.145 )
+
+[node name="MobPath3" type="Path2D" parent="."]
+position = Vector2( 0, 96 )
+scale = Vector2( 0.25, 0.4573 )
+curve = SubResource( 1 )
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath3"]
+position = Vector2( -272, 306.145 )
+
+[node name="MobPath4" type="Path2D" parent="."]
+position = Vector2( 0, 144 )
+scale = Vector2( 0.25, 0.4573 )
+curve = SubResource( 1 )
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath4"]
+position = Vector2( -272, 306.145 )
+
+[node name="MobPath5" type="Path2D" parent="."]
+position = Vector2( 0, 191 )
+scale = Vector2( 0.25, 0.4573 )
+curve = SubResource( 1 )
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath5"]
 position = Vector2( -272, 306.145 )
 
 [node name="StartTimer" type="Timer" parent="."]
