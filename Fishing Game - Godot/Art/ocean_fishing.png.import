@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/water_background.jpg-101f832d593de82961a5ca9c50e40686.stex"
+path="res://.import/ocean_fishing.png-d43ad20d92f4ae043154d0c4372fc309.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://water_background.jpg"
-dest_files=[ "res://.import/water_background.jpg-101f832d593de82961a5ca9c50e40686.stex" ]
+source_file="res://Art/ocean_fishing.png"
+dest_files=[ "res://.import/ocean_fishing.png-d43ad20d92f4ae043154d0c4372fc309.stex" ]
 
 [params]
 

@@ -1,5 +1,9 @@
 extends RigidBody2D
 
+# signal for score
+var score = 0
+# signal 
+
 # Called when mob node enters scene for first time.
 func _ready():
 	$AnimatedSprite.play()
@@ -12,5 +16,10 @@ func _on_VisibilityNotifier2D_screen_exited() -> void:
 	
 func _caught():
 	print("I've been caught!")  # confirms collision
-	# Increment score in here:
+	_score()
+	# emit_signal("catch")  # increment score
+	
+func _score():
+	score += 1
+	print("Score: %s" % score)
 	
