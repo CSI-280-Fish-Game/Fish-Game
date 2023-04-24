@@ -12,7 +12,11 @@ config_version=4
 
 config/name="Fishing Game"
 run/main_scene="res://Main.tscn"
-config/icon="res://icon.png"
+config/icon="res://Art/icon.png"
+
+[autoload]
+
+Global="*res://global.gd"
 
 [display]
 

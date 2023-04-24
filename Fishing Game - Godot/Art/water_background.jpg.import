@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fish_hook.png-0dae78c81c568e6b6de3c917c0275144.stex"
+path="res://.import/water_background.jpg-363c1350e77da0d276ec7a4359a68f65.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fish_hook.png"
-dest_files=[ "res://.import/fish_hook.png-0dae78c81c568e6b6de3c917c0275144.stex" ]
+source_file="res://Art/water_background.jpg"
+dest_files=[ "res://.import/water_background.jpg-363c1350e77da0d276ec7a4359a68f65.stex" ]
 
 [params]
 

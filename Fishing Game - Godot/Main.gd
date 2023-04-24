@@ -40,6 +40,9 @@ func _on_MobTimer_timeout():
 
 	# Spawn the mob by adding it to the Main scene.
 	add_child(mob)
+	
+	# bind the mob signal to the score fucntion
+	# mob.connect("catch", $UserInterface/ScoreLabel, "_fish_caught")
 
 func _on_StartTimer_timeout():
 	$MobTimer.start()
